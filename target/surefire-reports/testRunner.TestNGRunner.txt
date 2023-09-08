@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestNGRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.954 s <<< FAILURE! - in testRunner.TestNGRunner
+testRunner.TestNGRunner.setUpClass[org.testng.TestRunner@5a9f4771](0)  Time elapsed: 1.471 s  <<< FAILURE!
+io.cucumber.core.gherkin.FeatureParserException: 
+Failed to parse resource at: file:///C:/Users/admin/Desktop/end%20to%20end/Gmail/src/Feature/gmail.feature
+(6:1): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Then: Gmail login  succesful'
+
